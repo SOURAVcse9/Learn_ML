@@ -72,11 +72,9 @@
 # Core data-handling libraries
 import numpy as np
 import pandas as pd
-
 # Visualization libraries
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 # Machine learning libraries
 from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold
 from sklearn.preprocessing import StandardScaler
@@ -87,21 +85,15 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 from xgboost import XGBClassifier
-
-from sklearn.metrics import (accuracy_score, precision_score, recall_score, f1_score,
-                              roc_auc_score, roc_curve, confusion_matrix, classification_report)
-
 # Suppress non-critical warnings for a clean, professional notebook
 import warnings
 warnings.filterwarnings('ignore')
-
 # Professional plotting style
 plt.rcParams['figure.dpi'] = 110
 plt.rcParams['savefig.dpi'] = 110
 sns.set_style('whitegrid')
 sns.set_palette('viridis')
-
-print("✅ All libraries imported successfully.")
+print(" All libraries imported successfully.")
 
 
 # **Observation:** All libraries loaded without error, confirming the environment has every package required for the rest of the pipeline.
